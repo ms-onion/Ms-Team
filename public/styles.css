@@ -503,7 +503,11 @@ body.reveal-ready .reveal.visible {
     transform: translateY(-12px);
   }
 }
-
+@media (max-width: 768px) {
+  .brand img {
+    display: none;
+  }
+}
 @media (max-width: 960px) {
   .hero {
     grid-template-columns: 1fr;
@@ -593,6 +597,7 @@ body.reveal-ready .reveal.visible {
 
   .shield-core img {
     filter: drop-shadow(0 10px 24px rgba(255, 0, 0, 0.2));
+    display: none;
   }
 
   .ring-one,

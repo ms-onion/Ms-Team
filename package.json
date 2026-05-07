@@ -13,5 +13,9 @@
     "nodejs",
     "javascript"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^8.0.0",
+    "postcss": "^8.5.14"
+  }
 }
